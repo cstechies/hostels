@@ -6,8 +6,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401889319505" ignored="false" />
     <file path="/index.html" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401889546115" ignored="false" />
-    <file path="/views.py" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401889801832" ignored="false" />
-    <file path="/urls.py" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401890004253" ignored="false" />
+    <file path="/views.py" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401897193527" ignored="false" />
+    <file path="/urls.py" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401894975891" ignored="false" />
+    <file path="/models.py" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401894089879" ignored="false" />
+    <file path="E:/Cloudgust/projectcustom/projectcustom/checkout/views.py" changelist="b6b5ad4b-3ffd-4c66-a213-77b8b9fce1fc" time="1401894755903" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hostels/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="27" selection-start="192" selection-end="192" vertical-scroll-proportion="-2.401835">
+            <state line="116" column="29" selection-start="4139" selection-end="4139" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="25" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,19 +52,46 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hostels/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+            <state line="9" column="42" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="41" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.16221374">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorators.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/rest_framework/decorators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/views.py">
+        <entry file="file://C:/Python27/Lib/site-packages/rest_framework/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state line="400" column="0" selection-start="14237" selection-end="14237" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,8 +117,10 @@
       <list>
         <option value="$PROJECT_DIR$/hostels/settings.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/Web/views.py" />
+        <option value="$PROJECT_DIR$/Web/models.py" />
+        <option value="$PROJECT_DIR$/Web/urls.py" />
         <option value="$PROJECT_DIR$/hostels/urls.py" />
+        <option value="$PROJECT_DIR$/Web/views.py" />
       </list>
     </option>
   </component>
@@ -180,10 +222,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="E:/Cloudgust/projectcustom/projectcustom" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -217,6 +263,23 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hostels" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -328,7 +391,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11515152" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40075758" sideWeight="0.6712329" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34772727" sideWeight="0.6712329" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -400,9 +463,32 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://C:/Python27/Lib/site-packages/rest_framework/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="581" selection-end="581" vertical-scroll-proportion="0.34311926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hostels/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="29" selection-start="4139" selection-end="4139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="-5.230769">
@@ -410,26 +496,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/views.py">
+    <entry file="file://$PROJECT_DIR$/hostels/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+        <state line="9" column="42" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hostels/urls.py">
+    <entry file="file://C:/Python27/Lib/site-packages/rest_framework/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+        <state line="400" column="0" selection-start="14237" selection-end="14237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hostels/settings.py">
+    <entry file="file://C:/Python27/Lib/site-packages/rest_framework/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="192" selection-end="192" vertical-scroll-proportion="-2.401835">
+        <state line="48" column="0" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.16221374">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
