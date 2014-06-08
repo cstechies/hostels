@@ -1,6 +1,8 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from Maps import maps
 from Web.models import Hostels
 from json import loads
 
@@ -16,3 +18,7 @@ def registerHostel(request):
     address = loads(request.DATA['address']))
     hostelRecord.save()
     return Response({"data": hostelRecord.id}, 200)
+
+
+def getNearby(request):
+    return HttpResponse(maps.getPlacesBy(request.GET["place"]),200)
